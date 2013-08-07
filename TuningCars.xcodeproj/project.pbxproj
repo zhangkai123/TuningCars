@@ -211,6 +211,27 @@
 		4B9181C617B202A10006B20E /* CC3VertexArrayMeshModel.m in Sources */ = {isa = PBXBuildFile; fileRef = 4B91816817B202A10006B20E /* CC3VertexArrayMeshModel.m */; };
 		4B9181C717B202A10006B20E /* CC3World.m in Sources */ = {isa = PBXBuildFile; fileRef = 4B91816A17B202A10006B20E /* CC3World.m */; };
 		4B9181C917B203890006B20E /* libz.dylib in Frameworks */ = {isa = PBXBuildFile; fileRef = 4B9181C817B203890006B20E /* libz.dylib */; };
+		4B9181CC17B212450006B20E /* TC3DViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 4B9181CB17B212450006B20E /* TC3DViewController.m */; };
+		4B9181CF17B214520006B20E /* TCRootViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 4B9181CE17B214520006B20E /* TCRootViewController.m */; };
+		4B9181D417B21D650006B20E /* TestTest13Layer.m in Sources */ = {isa = PBXBuildFile; fileRef = 4B9181D117B21D650006B20E /* TestTest13Layer.m */; };
+		4B9181D517B21D650006B20E /* TestTest13Scene.m in Sources */ = {isa = PBXBuildFile; fileRef = 4B9181D317B21D650006B20E /* TestTest13Scene.m */; };
+		4B9181D817B223F60006B20E /* fps_images.png in Resources */ = {isa = PBXBuildFile; fileRef = 4B9181D617B223F60006B20E /* fps_images.png */; };
+		4B9181E017B2408A0006B20E /* MainLayer.m in Sources */ = {isa = PBXBuildFile; fileRef = 4B9181DB17B240870006B20E /* MainLayer.m */; };
+		4B9181E117B2408A0006B20E /* TileLayer.m in Sources */ = {isa = PBXBuildFile; fileRef = 4B9181DD17B240880006B20E /* TileLayer.m */; };
+		4B9181E217B2408A0006B20E /* TileScene.m in Sources */ = {isa = PBXBuildFile; fileRef = 4B9181DF17B240890006B20E /* TileScene.m */; };
+		4B9181ED17B2419D0006B20E /* arial16.fnt in Resources */ = {isa = PBXBuildFile; fileRef = 4B9181E317B2419C0006B20E /* arial16.fnt */; };
+		4B9181EE17B2419D0006B20E /* arial16.png in Resources */ = {isa = PBXBuildFile; fileRef = 4B9181E417B2419C0006B20E /* arial16.png */; };
+		4B9181EF17B2419D0006B20E /* ArrowUpButton48x48.png in Resources */ = {isa = PBXBuildFile; fileRef = 4B9181E517B2419C0006B20E /* ArrowUpButton48x48.png */; };
+		4B9181F017B2419D0006B20E /* BeachBall.pod in Resources */ = {isa = PBXBuildFile; fileRef = 4B9181E617B2419C0006B20E /* BeachBall.pod */; };
+		4B9181F117B2419D0006B20E /* ButtonRing48x48.png in Resources */ = {isa = PBXBuildFile; fileRef = 4B9181E717B2419C0006B20E /* ButtonRing48x48.png */; };
+		4B9181F217B2419D0006B20E /* cocos3dMascot.png in Resources */ = {isa = PBXBuildFile; fileRef = 4B9181E817B2419D0006B20E /* cocos3dMascot.png */; };
+		4B9181F317B2419D0006B20E /* cocos3dMascot.pod in Resources */ = {isa = PBXBuildFile; fileRef = 4B9181E917B2419D0006B20E /* cocos3dMascot.pod */; };
+		4B9181F417B2419D0006B20E /* DieCube.pod in Resources */ = {isa = PBXBuildFile; fileRef = 4B9181EA17B2419D0006B20E /* DieCube.pod */; };
+		4B9181F517B2419D0006B20E /* fire.png in Resources */ = {isa = PBXBuildFile; fileRef = 4B9181EB17B2419D0006B20E /* fire.png */; };
+		4B9181F617B2419D0006B20E /* hello-world.pod in Resources */ = {isa = PBXBuildFile; fileRef = 4B9181EC17B2419D0006B20E /* hello-world.pod */; };
+		4B9181FD17B241D80006B20E /* CCNodeAdornments.m in Sources */ = {isa = PBXBuildFile; fileRef = 4B9181F817B241D70006B20E /* CCNodeAdornments.m */; };
+		4B9181FE17B241D80006B20E /* CCNodeExtensions.m in Sources */ = {isa = PBXBuildFile; fileRef = 4B9181FA17B241D70006B20E /* CCNodeExtensions.m */; };
+		4B9181FF17B241D80006B20E /* Joystick.m in Sources */ = {isa = PBXBuildFile; fileRef = 4B9181FC17B241D80006B20E /* Joystick.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -635,6 +656,37 @@
 		4B91816B17B202A10006B20E /* CCNodeController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CCNodeController.h; sourceTree = "<group>"; };
 		4B91816C17B202A10006B20E /* ControllableCCLayer.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ControllableCCLayer.h; sourceTree = "<group>"; };
 		4B9181C817B203890006B20E /* libz.dylib */ = {isa = PBXFileReference; lastKnownFileType = "compiled.mach-o.dylib"; name = libz.dylib; path = usr/lib/libz.dylib; sourceTree = SDKROOT; };
+		4B9181CA17B212450006B20E /* TC3DViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TC3DViewController.h; sourceTree = "<group>"; };
+		4B9181CB17B212450006B20E /* TC3DViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TC3DViewController.m; sourceTree = "<group>"; };
+		4B9181CD17B214520006B20E /* TCRootViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TCRootViewController.h; sourceTree = "<group>"; };
+		4B9181CE17B214520006B20E /* TCRootViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TCRootViewController.m; sourceTree = "<group>"; };
+		4B9181D017B21D650006B20E /* TestTest13Layer.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TestTest13Layer.h; sourceTree = "<group>"; };
+		4B9181D117B21D650006B20E /* TestTest13Layer.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TestTest13Layer.m; sourceTree = "<group>"; };
+		4B9181D217B21D650006B20E /* TestTest13Scene.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TestTest13Scene.h; sourceTree = "<group>"; };
+		4B9181D317B21D650006B20E /* TestTest13Scene.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TestTest13Scene.m; sourceTree = "<group>"; };
+		4B9181D617B223F60006B20E /* fps_images.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = fps_images.png; sourceTree = "<group>"; };
+		4B9181DA17B240870006B20E /* MainLayer.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MainLayer.h; sourceTree = "<group>"; };
+		4B9181DB17B240870006B20E /* MainLayer.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MainLayer.m; sourceTree = "<group>"; };
+		4B9181DC17B240880006B20E /* TileLayer.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TileLayer.h; sourceTree = "<group>"; };
+		4B9181DD17B240880006B20E /* TileLayer.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TileLayer.m; sourceTree = "<group>"; };
+		4B9181DE17B240890006B20E /* TileScene.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TileScene.h; sourceTree = "<group>"; };
+		4B9181DF17B240890006B20E /* TileScene.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TileScene.m; sourceTree = "<group>"; };
+		4B9181E317B2419C0006B20E /* arial16.fnt */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = arial16.fnt; sourceTree = "<group>"; };
+		4B9181E417B2419C0006B20E /* arial16.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = arial16.png; sourceTree = "<group>"; };
+		4B9181E517B2419C0006B20E /* ArrowUpButton48x48.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = ArrowUpButton48x48.png; sourceTree = "<group>"; };
+		4B9181E617B2419C0006B20E /* BeachBall.pod */ = {isa = PBXFileReference; lastKnownFileType = file; path = BeachBall.pod; sourceTree = "<group>"; };
+		4B9181E717B2419C0006B20E /* ButtonRing48x48.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = ButtonRing48x48.png; sourceTree = "<group>"; };
+		4B9181E817B2419D0006B20E /* cocos3dMascot.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = cocos3dMascot.png; sourceTree = "<group>"; };
+		4B9181E917B2419D0006B20E /* cocos3dMascot.pod */ = {isa = PBXFileReference; lastKnownFileType = file; path = cocos3dMascot.pod; sourceTree = "<group>"; };
+		4B9181EA17B2419D0006B20E /* DieCube.pod */ = {isa = PBXFileReference; lastKnownFileType = file; path = DieCube.pod; sourceTree = "<group>"; };
+		4B9181EB17B2419D0006B20E /* fire.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = fire.png; sourceTree = "<group>"; };
+		4B9181EC17B2419D0006B20E /* hello-world.pod */ = {isa = PBXFileReference; lastKnownFileType = file; path = "hello-world.pod"; sourceTree = "<group>"; };
+		4B9181F717B241D60006B20E /* CCNodeAdornments.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CCNodeAdornments.h; sourceTree = "<group>"; };
+		4B9181F817B241D70006B20E /* CCNodeAdornments.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CCNodeAdornments.m; sourceTree = "<group>"; };
+		4B9181F917B241D70006B20E /* CCNodeExtensions.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CCNodeExtensions.h; sourceTree = "<group>"; };
+		4B9181FA17B241D70006B20E /* CCNodeExtensions.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CCNodeExtensions.m; sourceTree = "<group>"; };
+		4B9181FB17B241D80006B20E /* Joystick.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Joystick.h; sourceTree = "<group>"; };
+		4B9181FC17B241D80006B20E /* Joystick.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Joystick.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -696,6 +748,26 @@
 				4B917F5017B1F3E20006B20E /* ThirdPartyLib */,
 				4B917C9317B1F2780006B20E /* AppDelegate.h */,
 				4B917C9417B1F2780006B20E /* AppDelegate.m */,
+				4B9181CD17B214520006B20E /* TCRootViewController.h */,
+				4B9181CE17B214520006B20E /* TCRootViewController.m */,
+				4B9181CA17B212450006B20E /* TC3DViewController.h */,
+				4B9181CB17B212450006B20E /* TC3DViewController.m */,
+				4B9181DA17B240870006B20E /* MainLayer.h */,
+				4B9181DB17B240870006B20E /* MainLayer.m */,
+				4B9181DC17B240880006B20E /* TileLayer.h */,
+				4B9181DD17B240880006B20E /* TileLayer.m */,
+				4B9181DE17B240890006B20E /* TileScene.h */,
+				4B9181DF17B240890006B20E /* TileScene.m */,
+				4B9181F717B241D60006B20E /* CCNodeAdornments.h */,
+				4B9181F817B241D70006B20E /* CCNodeAdornments.m */,
+				4B9181F917B241D70006B20E /* CCNodeExtensions.h */,
+				4B9181FA17B241D70006B20E /* CCNodeExtensions.m */,
+				4B9181FB17B241D80006B20E /* Joystick.h */,
+				4B9181FC17B241D80006B20E /* Joystick.m */,
+				4B9181D017B21D650006B20E /* TestTest13Layer.h */,
+				4B9181D117B21D650006B20E /* TestTest13Layer.m */,
+				4B9181D217B21D650006B20E /* TestTest13Scene.h */,
+				4B9181D317B21D650006B20E /* TestTest13Scene.m */,
 				4B917C8B17B1F2780006B20E /* Supporting Files */,
 			);
 			path = TuningCars;
@@ -704,6 +776,17 @@
 		4B917C8B17B1F2780006B20E /* Supporting Files */ = {
 			isa = PBXGroup;
 			children = (
+				4B9181E317B2419C0006B20E /* arial16.fnt */,
+				4B9181E417B2419C0006B20E /* arial16.png */,
+				4B9181E517B2419C0006B20E /* ArrowUpButton48x48.png */,
+				4B9181E617B2419C0006B20E /* BeachBall.pod */,
+				4B9181E717B2419C0006B20E /* ButtonRing48x48.png */,
+				4B9181E817B2419D0006B20E /* cocos3dMascot.png */,
+				4B9181E917B2419D0006B20E /* cocos3dMascot.pod */,
+				4B9181EA17B2419D0006B20E /* DieCube.pod */,
+				4B9181EB17B2419D0006B20E /* fire.png */,
+				4B9181EC17B2419D0006B20E /* hello-world.pod */,
+				4B9181D617B223F60006B20E /* fps_images.png */,
 				4B917C8C17B1F2780006B20E /* TuningCars-Info.plist */,
 				4B917C8D17B1F2780006B20E /* InfoPlist.strings */,
 				4B917C9017B1F2780006B20E /* main.m */,
@@ -1424,6 +1507,17 @@
 				4B91808617B1FE150006B20E /* LICENSE_FontLabel.txt in Resources */,
 				4B91808717B1FE150006B20E /* LICENSE_TouchJSON.txt in Resources */,
 				4B91817F17B202A10006B20E /* PVRT_Removed_Files.txt in Resources */,
+				4B9181D817B223F60006B20E /* fps_images.png in Resources */,
+				4B9181ED17B2419D0006B20E /* arial16.fnt in Resources */,
+				4B9181EE17B2419D0006B20E /* arial16.png in Resources */,
+				4B9181EF17B2419D0006B20E /* ArrowUpButton48x48.png in Resources */,
+				4B9181F017B2419D0006B20E /* BeachBall.pod in Resources */,
+				4B9181F117B2419D0006B20E /* ButtonRing48x48.png in Resources */,
+				4B9181F217B2419D0006B20E /* cocos3dMascot.png in Resources */,
+				4B9181F317B2419D0006B20E /* cocos3dMascot.pod in Resources */,
+				4B9181F417B2419D0006B20E /* DieCube.pod in Resources */,
+				4B9181F517B2419D0006B20E /* fire.png in Resources */,
+				4B9181F617B2419D0006B20E /* hello-world.pod in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -1620,6 +1714,16 @@
 				4B9181C517B202A10006B20E /* CC3TargettingNode.m in Sources */,
 				4B9181C617B202A10006B20E /* CC3VertexArrayMeshModel.m in Sources */,
 				4B9181C717B202A10006B20E /* CC3World.m in Sources */,
+				4B9181CC17B212450006B20E /* TC3DViewController.m in Sources */,
+				4B9181CF17B214520006B20E /* TCRootViewController.m in Sources */,
+				4B9181D417B21D650006B20E /* TestTest13Layer.m in Sources */,
+				4B9181D517B21D650006B20E /* TestTest13Scene.m in Sources */,
+				4B9181E017B2408A0006B20E /* MainLayer.m in Sources */,
+				4B9181E117B2408A0006B20E /* TileLayer.m in Sources */,
+				4B9181E217B2408A0006B20E /* TileScene.m in Sources */,
+				4B9181FD17B241D80006B20E /* CCNodeAdornments.m in Sources */,
+				4B9181FE17B241D80006B20E /* CCNodeExtensions.m in Sources */,
+				4B9181FF17B241D80006B20E /* Joystick.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
