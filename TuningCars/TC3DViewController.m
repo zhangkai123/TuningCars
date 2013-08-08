@@ -11,7 +11,8 @@
 
 @interface TC3DViewController ()
 {
-    CCScene *blankScene;
+    CCScene *scene;
+    MainLayer *layer;
 }
 @end
 
@@ -30,19 +31,57 @@
     }
     return self;
 }
--(void)viewWillAppear:(BOOL)animated
+-(void)viewDidDisappear:(BOOL)animated
 {
-    [super viewWillAppear:animated];
+    [super viewDidDisappear:animated];
+}
+-(void)viewWillDisappear:(BOOL)animated {
     
+    [layer unscheduleUpdate];
+    [layer removeAllChildrenWithCleanup:YES];
+    [[CCDirector sharedDirector].runningScene removeAllChildrenWithCleanup:YES];
+    [[CCDirector sharedDirector]stopAnimation];
+    [[CCDirector sharedDirector]popScene];
+    layer = nil;
+    scene = nil;
     
-	// Run the intro Scene
-	CCScene *scene = [CCScene node];
-	[scene addChild: [MainLayer node]];
-    if ([CCDirector sharedDirector].runningScene == nil) {
-        [[CCDirector sharedDirector] runWithScene: scene];
-    }else{
-        [[CCDirector sharedDirector] replaceScene: scene];
-    }
+    [super viewWillDisappear:animated];
+}
+- (void)viewDidLoad
+{
+    [super viewDidLoad];
+	// Do any additional setup after loading the view.
+    
+    if( ! [CCDirector setDirectorType:kCCDirectorTypeDisplayLink] )
+        [CCDirector setDirectorType:kCCDirectorTypeDefault];
+    
+    CCDirector *director = [CCDirector sharedDirector];
+    
+    [director setDeviceOrientation:kCCDeviceOrientationPortrait];
+    
+    [director setAnimationInterval:1.0/60];
+    [director setDisplayFPS:YES];
+    [director enableRetinaDisplay:YES];
+    
+    EAGLView* eagl = [EAGLView viewWithFrame: CGRectMake(0, 0, 320, 460)
+                                 pixelFormat: kEAGLColorFormatRGBA8
+                                 depthFormat: GL_DEPTH_COMPONENT16_OES
+                          preserveBackbuffer: NO
+                                  sharegroup: nil
+                               multiSampling: NO
+                             numberOfSamples: 4];
+    
+    [director setOpenGLView:eagl];
+    [self.view addSubview:eagl];
+    
+    // Run the intro Scene
+	scene = [CCScene node];
+    layer = [MainLayer node];
+	[scene addChild: layer];
+    if([director runningScene])
+        [director replaceScene:scene];
+    else
+        [director runWithScene:scene];
     
     UIButton *button = [[UIButton alloc]initWithFrame:CGRectMake(10, 10, 60, 30)];
     button.backgroundColor = [UIColor blueColor];
@@ -53,22 +92,9 @@
     [glView addSubview:button];
     [button release];
 }
--(void)viewDidDisappear:(BOOL)animated
-{
-    [super viewDidDisappear:animated];
-}
-- (void)viewDidLoad
-{
-    [super viewDidLoad];
-	// Do any additional setup after loading the view.    
-}
 -(void)goBack
 {
-    [self dismissViewControllerAnimated:YES completion:^{
-        [[CCDirector sharedDirector].runningScene removeAllChildrenWithCleanup:YES];
-        blankScene = [CCScene node];
-        [[CCDirector sharedDirector] replaceScene:blankScene];
-    }];
+    [self dismissViewControllerAnimated:YES completion:nil];
 }
 - (void)didReceiveMemoryWarning
 {

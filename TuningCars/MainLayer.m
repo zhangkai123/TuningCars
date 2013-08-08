@@ -200,29 +200,29 @@
 	mn.shouldColorTile = YES;
 	[templates addObject: mn];
 	
-//	// Mascot model from POD resource.
-//	rezNode = [CC3PODResourceNode nodeFromFile: kMascotPODFile];
-//	mn = [rezNode getMeshNodeNamed: kMascotName];
-//	[mn remove];		// Remove from the POD resource
-//	[mn moveMeshOriginToCenterOfGeometry];
-//	mn.rotation = cc3v(0.0, -90.0, 0.0);
-//	mn.isTouchEnabled = YES;
-//	[templates addObject: mn];
-//	
-//	// Die cube model from POD resource.
-//	rezNode = [CC3PODResourceNode nodeFromFile: kDieCubePODFile];
-//	n = [rezNode getNodeNamed: kDieCubeName];
-//	[n remove];		// Remove from the POD resource
-//	n.isTouchEnabled = YES;
-//	[templates addObject: n];
-//	
-//	// Beachball from POD resource with no texture, but with several subnodes
-//	rezNode = [CC3PODResourceNode nodeFromFile: kBeachBallFileName];
-//	n = [rezNode getNodeNamed: kBeachBallName];
-//	[n remove];		// Remove from the POD resource
-//	n.isOpaque = YES;
-//	n.isTouchEnabled = YES;
-//	[templates addObject: n];
+	// Mascot model from POD resource.
+	rezNode = [CC3PODResourceNode nodeFromFile: kMascotPODFile];
+	mn = [rezNode getMeshNodeNamed: kMascotName];
+	[mn remove];		// Remove from the POD resource
+	[mn moveMeshOriginToCenterOfGeometry];
+	mn.rotation = cc3v(0.0, -90.0, 0.0);
+	mn.isTouchEnabled = YES;
+	[templates addObject: mn];
+	
+	// Die cube model from POD resource.
+	rezNode = [CC3PODResourceNode nodeFromFile: kDieCubePODFile];
+	n = [rezNode getNodeNamed: kDieCubeName];
+	[n remove];		// Remove from the POD resource
+	n.isTouchEnabled = YES;
+	[templates addObject: n];
+	
+	// Beachball from POD resource with no texture, but with several subnodes
+	rezNode = [CC3PODResourceNode nodeFromFile: kBeachBallFileName];
+	n = [rezNode getNodeNamed: kBeachBallName];
+	[n remove];		// Remove from the POD resource
+	n.isOpaque = YES;
+	n.isTouchEnabled = YES;
+	[templates addObject: n];
 }
 
 
